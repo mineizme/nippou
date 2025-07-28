@@ -1,7 +1,7 @@
 streamlit
 openai
+python-dotenv
 sqlalchemy
 pandas
 altair
-python-dotenv
-serpapi
+google-search-results
