@@ -5,3 +5,4 @@ sqlalchemy
 pandas
 altair
 google-search-results
+
