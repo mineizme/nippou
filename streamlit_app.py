@@ -70,7 +70,7 @@ def ensure_analysis_column():
 
 # --- 環境変数読み込み ---
 load_dotenv("mine.env")
-SERPAPI_API_KEY = "d849feab8005780b037956c5b80c9fbee2da30597c51302c0e9d930021945ba0"
+SERPAPI_API_KEY = os.getenv("SERPAPI_API_KEY")
 api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
 
